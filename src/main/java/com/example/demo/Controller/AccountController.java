@@ -24,7 +24,7 @@ public class AccountController {
 	@Autowired
 	Accountservice service;
 	
-	@PostMapping("/Hello")
+	@PostMapping("/")
 	public String great() {
 		return "Hello From Bank";
 	}
